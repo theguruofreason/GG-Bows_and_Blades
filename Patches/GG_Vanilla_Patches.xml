@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<!-- alter vanilla research prereqs -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="Mortars"]/prerequisites</xpath>
+		<value>
+			<prerequisites>
+				<li>GG_GrenadeLaunchers</li>
+			</prerequisites>
+		</value>
+	</Operation>
+
+</Patch>
